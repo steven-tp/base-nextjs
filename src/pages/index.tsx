@@ -16,7 +16,7 @@ const HomePage = () => {
     <>
     <div>Home</div>
     <div>Value: {value}</div>
-    <button onClick={handleIncrement}>Tăng</button>
+    <button className="btn-blue" onClick={handleIncrement}>Tăng</button>
     <button onClick={handleDecrement}>Giảm</button>
     </>
   )
